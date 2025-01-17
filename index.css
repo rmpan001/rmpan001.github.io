@@ -152,19 +152,14 @@
 
 }
 
-@layer contact{
-
-  .contact {
-    .section-contact {
-      text-align: center;
-      padding: 6rem 0;
-      background: var(--black) url(https://assets.codepen.io/296057/fem-aurora.jpg) center center;
-      color: var(--white);
-
-    }
-    .section-contact p:last-child{
-      margin-top: 3rem;
-    }
-
+@layer contact {
+  .section-contact {
+    text-align: center;
+    padding: 6rem 0;
+    background:  var(--black) url(https://assets.codepen.io/296057/fem-aurora.jpg) center center;
+    color: var(--white);
+  }
+  .section-contact p:last-child {
+    margin-top: 3rem;
   }
 }
