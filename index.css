@@ -182,3 +182,60 @@
     margin-top: 3rem;
   }
 }
+
+@layer nav {
+  body {
+    background-color: black;
+  }
+  header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  header h1 {
+    font-size: var(--h3);
+    color: var(--lightgreen);
+    font-weight: 300;
+    margin: 0;
+  }
+  header a {
+    text-decoration: none;
+    color: var(--white);
+  }
+  header a:hover {
+    color: var(--green);
+  }
+  header svg {
+    width: 30px;
+    fill: var(--white);
+    margin-top: 0.5rem;
+  }
+  header a:hover svg {
+    fill: var(--green);
+  }
+  nav {
+    font-family: var(--heading);
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+  }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  nav .button {
+    padding: 0.6rem 0.4rem 0.4rem 0.4rem;
+    color: var(--black);
+  }
+  nav .button:hover {
+    color: var(--black);
+  }
+
+}
